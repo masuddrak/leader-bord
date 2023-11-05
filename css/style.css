@@ -1,0 +1,48 @@
+body {
+    background-color: #F3F1FF;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/* container */
+.container {
+    width: 870px;
+}
+
+/* top players */
+.top-players {
+    background-color: #FFFFFF;
+    padding: 30px;
+}
+
+.top-player-title {
+    color: #562EFF;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 16px;
+}
